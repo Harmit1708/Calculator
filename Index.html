@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<htmlb lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table class="container table table-bordered">
+        <tbody>
+            <tr>
+                <td colspan="5"><input id="demo" type="text"></td>
+            </tr>
+            <tr>
+                <td onclick="Clear_function()"><button ><mark>C</mark></button></td>
+                <td onclick="backspace()"><button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg></button></td>
+                <td onclick="myfunction('.')"><button >.</button></td>
+                <td onclick="mul('*')"><button ><mark class="c1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/><path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/></svg></mark></button></td>
+            </tr>
+            <tr>
+                <td onclick="myfunction('7')"><button >7</button></td>
+                <td onclick="myfunction('8')"><button >8</button></td>
+                <td onclick="myfunction('9')"><button >9</button></td>
+                <td onclick="div('/')"><button ><mark class="c1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-slash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/></svg></mark></button></td>
+            </tr>
+            <tr>
+                <td onclick="myfunction('4')"><button>4</button></td>
+                <td onclick="myfunction('5')"><button>5</button></td>
+                <td onclick="myfunction('6')"><button>6</button></td>
+                <td onclick="sub('-')"><button><mark class="c1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/></svg></mark></button></td>
+            </tr>
+            <tr>
+                <td onclick="myfunction('3')"><button>3</button></td>
+                <td onclick="myfunction('2')"><button>2</button></td>
+                <td onclick="myfunction('1')"><button>1</button></td>
+                <td onclick="add('+')"><button><mark class="c1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg></mark></button></td>
+            </tr>
+            <tr>
+                <td onclick="myfunction('0')"><button >0</button></td>
+                <td onclick="myfunction('00')"><button >00</button></td>
+                <td colspan="2"><button class="btn btn-primary" id="equal">=</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="/JS/jquery-3.6.0.min.js"></script>
+    <script src="/JS/bootstrap.min.js"></script>
+    <script src="/JS/Script.js"></script>
+</body>
+</htmlb
