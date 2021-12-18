@@ -1,6 +1,5 @@
 table{
     text-align: center;
-    margin-top:180px;
     background-color:lightgray;
     border: 1px inset black;
 }
@@ -31,4 +30,8 @@ mark{
 
 .c1{
     color: blue;
+}
+h1{
+    text-align: center;
+    margin-top: 180px;
 }
